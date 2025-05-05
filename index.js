@@ -327,4 +327,22 @@ window.addEventListener('keyup', (e) => {
     }
 })
 
+document.getElementById("forceShow").addEventListener("click", function () {
+    const forceButton = document.getElementById("forceShow");
+    const mobileElements = document.getElementsByClassName("mobile");
+    const gameCanvasContainer = document.getElementById("gameCanvasContainer");
 
+    if (forceButton.textContent === "Force Show Demo") {
+        for (let i = 0; i < mobileElements.length; i++) {
+            mobileElements[i].style.display = "block";
+        }
+        gameCanvasContainer.style.display = "flex";
+        forceButton.textContent = "Force Hide Demo";
+    } else {
+        for (let i = 0; i < mobileElements.length; i++) {
+            mobileElements[i].style.display = "none";
+        }
+        gameCanvasContainer.style.display = "none";
+        forceButton.textContent = "Force Show Demo";
+    }
+});
