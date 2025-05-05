@@ -3,10 +3,10 @@ A personal portfolio/website
 
 **Project Milestones**
 
-_Milestone 1: Initial Setup_
+_Milestone 1: Initial Setup_  ✓
   1. Create a GitHub Repository  ✓
   2. Set Up GitHub Pages  ✓
-  3. Basic index.html File
+  3. Basic index.html File  ✓
 
 _Milestone 2: Layout & Basic Content_
   1. HTML Structure
