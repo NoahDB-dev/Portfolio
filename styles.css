@@ -89,6 +89,13 @@ li {
     li {
         font-size: 1.6em;
     }
+    figure {
+        flex-direction: column;
+    }
+    figcaption {
+        text-align: left;
+        display: block;
+    }
 }
 .mobile {
     display: none;
@@ -112,7 +119,24 @@ figcaption {
     font-size: 1.2em;
     text-align: center;
     margin: 0;
+    padding: 20px;
+}
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
     padding: 20px 0;
+}
+button {
+    background-color: rgb(60, 83, 230);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    justify-content: center;
 }
 #headTitle {
     margin: 0px;
