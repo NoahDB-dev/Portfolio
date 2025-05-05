@@ -18,10 +18,10 @@ _Milestone 3: Styles & Theming_  ✓
   2. Improve Layout  ✓
   3. Responsive Adjustments  ✓
 
-Milestone 4: Interactive Elements & Enhancement
-  1. JavaScript Introduction
+Milestone 4: Interactive Elements & Enhancement  ✓
+  1. JavaScript Introduction  ✓
   2. Project Gallery  ✓
-  3. Refine Accessibility
+  3. Refine Accessibility  ✓
 
 Milestone 5: Final Review & Reflection
   1. Content Polish
