@@ -327,22 +327,38 @@ window.addEventListener('keyup', (e) => {
     }
 })
 
+//Adding the event listener that checks if the "force show/force hide" button has been clicked
 document.getElementById("forceShow").addEventListener("click", function () {
+
+    //Creating a constants that will store the elements from projects.html
     const forceButton = document.getElementById("forceShow");
     const mobileElements = document.getElementsByClassName("mobile");
     const gameCanvasContainer = document.getElementById("gameCanvasContainer");
 
+    //Checking what state the button is in and executing the proper code
     if (forceButton.textContent === "Force Show Demo") {
+
+        //Setting all elements of the mobile class to have a block display
         for (let i = 0; i < mobileElements.length; i++) {
             mobileElements[i].style.display = "block";
         }
+
+        //Setting the game canvas container seperately since that uses a flex display
         gameCanvasContainer.style.display = "flex";
+
+        //Changing the text of the button
         forceButton.textContent = "Force Hide Demo";
     } else {
+
+        //Hiding all elements of the mobile display
         for (let i = 0; i < mobileElements.length; i++) {
             mobileElements[i].style.display = "none";
         }
+
+        //Setting the game canvas container seperately (it is not part of the mobile class)
         gameCanvasContainer.style.display = "none";
+
+        //Changing the text of the button
         forceButton.textContent = "Force Show Demo";
     }
 });
