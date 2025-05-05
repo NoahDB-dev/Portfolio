@@ -13,14 +13,14 @@ _Milestone 2: Layout & Basic Content_  ✓
   2. Semantic Tags  ✓
   3. Commit to GitHub & Deploy  ✓
 
-_Milestone 3: Styles & Theming_
+_Milestone 3: Styles & Theming_  ✓
   1. CSS Styling  ✓
   2. Improve Layout  ✓
-  3. Responsive Adjustments
+  3. Responsive Adjustments  ✓
 
 Milestone 4: Interactive Elements & Enhancement
   1. JavaScript Introduction
-  2. Project Gallery
+  2. Project Gallery  ✓
   3. Refine Accessibility
 
 Milestone 5: Final Review & Reflection
