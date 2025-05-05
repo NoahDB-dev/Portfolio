@@ -54,7 +54,7 @@ class Sprite {
         this.animate = animate;
 
         this.frameElapsed = 0;
-        this.frameHold = 50;
+        this.frameHold = 10;
     
         this.image.onload = () => {
             this.width = (this.image.width - this.sizeAdjust.width/2) / this.frames.xMax * this.scale.scaleX;

@@ -72,7 +72,7 @@ const player = new Sprite({
 });
 
 //Changes the movement speed of the player (technically changes the speed that the background moves)
-const velocity = 0.6;
+const velocity = 2;
 
 //Creating the background object that will store information about the background (The class is Sprite)
 const background = new Sprite({ 
