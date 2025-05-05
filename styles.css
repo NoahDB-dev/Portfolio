@@ -87,16 +87,16 @@ li {
         font-size: 1em;
     }
     li {
-        font-size: 1em;
+        font-size: 1.6em;
     }
 }
 .mobile {
     display: none;
 }
-@media(min-width: 600px) {
+@media (min-width: 767px) {
     .mobile {
-        display: block;
-    } 
+      display: block;
+    }
 }
 #headTitle {
     margin: 0px;
