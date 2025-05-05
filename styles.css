@@ -98,6 +98,22 @@ li {
       display: block;
     }
 }
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 400px;
+    height: auto;
+}
+figcaption {
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
 #headTitle {
     margin: 0px;
     padding: 0px;
