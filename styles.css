@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(51,48,41);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+header {
+    background-color: rgb(51,48,41);
+    border-bottom: 4px solid black;
+    color: rgb(145,143,138);
+}
+.footer {
+    justify-content: left;
+    text-align: center;
+    position: fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+}
+canvas {
+    display: block;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+    h1 {
+    color: rgb(145,143,138);
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    text-decoration: underline;
+}
+h2 {
+    color: rgb(145,143,138);
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+h4 {
+    color: rgb(145,143,138);
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+p {
+    color: rgb(145,143,138);
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+a {
+    color: rgb(76, 89, 173);
+    text-decoration: none;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+li {
+    color: rgb(145,143,138);
+    font-size: 1.2em;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 20px 0;
+}
