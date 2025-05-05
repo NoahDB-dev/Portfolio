@@ -55,7 +55,7 @@ p {
     padding: 20px 0;
 }
 a {
-    color: rgb(76, 89, 173);
+    color: rgb(60, 83, 230);
     text-decoration: none;
 }
 ul {
@@ -72,6 +72,31 @@ li {
     justify-content: center;
     margin: 0;
     padding: 20px 0;
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h4 {
+        font-size: 1.2em;
+    }
+    p {
+        font-size: 1em;
+    }
+    li {
+        font-size: 1em;
+    }
+}
+.mobile {
+    display: none;
+}
+@media(min-width: 600px) {
+    .mobile {
+        display: block;
+    } 
 }
 #headTitle {
     margin: 0px;
