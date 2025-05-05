@@ -4,13 +4,15 @@ body {
     
 }
 header {
-    background-color: rgb(75, 69, 57);
+    background-color: rgb(51,48,41);
     color: white;
+    border-bottom: 3px solid white;
+    width: 100%;
 }
 
 nav {
     margin: 0px;
-    padding: 0px;
+    padding: 10px;
 }
 canvas {
     display: block;
@@ -43,6 +45,7 @@ h4 {
     text-align: center;
     margin: 0;
     padding: 20px 0;
+    text-decoration: underline;
 }
 p {
     color: white;
