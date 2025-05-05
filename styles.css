@@ -4,20 +4,17 @@ body {
     
 }
 header {
-    background-color: rgb(51,48,41);
-    border-bottom: 4px solid black;
-    color: rgb(145,143,138);
+    background-color: rgb(75, 69, 57);
+    color: white;
 }
-.footer {
-    justify-content: left;
-    text-align: center;
-    position: fixed;
-    left:0;
-    bottom:0;
-    width: 100%;
+
+nav {
+    margin: 0px;
+    padding: 0px;
 }
 canvas {
     display: block;
+    margin-bottom: 20px;
 }
 div {
     display: flex;
@@ -26,7 +23,7 @@ div {
     margin: 0;
 }
     h1 {
-    color: rgb(145,143,138);
+    color: white;
     font-size: 2.5em;
     text-align: center;
     margin: 0;
@@ -34,21 +31,21 @@ div {
     text-decoration: underline;
 }
 h2 {
-    color: rgb(145,143,138);
+    color: white;
     font-size: 2em;
     text-align: center;
     margin: 0;
     padding: 20px 0;
 }
 h4 {
-    color: rgb(145,143,138);
+    color: white;
     font-size: 1.5em;
     text-align: center;
     margin: 0;
     padding: 20px 0;
 }
 p {
-    color: rgb(145,143,138);
+    color: white;
     font-size: 1.2em;
     text-align: center;
     margin: 0;
@@ -66,10 +63,20 @@ ul {
     align-items: center;
 }
 li {
-    color: rgb(145,143,138);
+    color: white;
     font-size: 1.2em;
     text-align: center;
     justify-content: center;
     margin: 0;
     padding: 20px 0;
+}
+#headTitle {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+#headBody {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
 }
