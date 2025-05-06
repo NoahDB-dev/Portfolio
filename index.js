@@ -327,38 +327,30 @@ window.addEventListener('keyup', (e) => {
     }
 })
 
-//Adding the event listener that checks if the "force show/force hide" button has been clicked
+//Adding the event listener that checks if the force show / force hide button has been pressed
 document.getElementById("forceShow").addEventListener("click", function () {
 
-    //Creating a constants that will store the elements from projects.html
+    //Creating constants to store information about the button, mobile class, and the gameCanvasContainer element
     const forceButton = document.getElementById("forceShow");
     const mobileElements = document.getElementsByClassName("mobile");
     const gameCanvasContainer = document.getElementById("gameCanvasContainer");
 
-    //Checking what state the button is in and executing the proper code
-    if (forceButton.textContent === "Force Show Demo") {
-
-        //Setting all elements of the mobile class to have a block display
-        for (let i = 0; i < mobileElements.length; i++) {
-            mobileElements[i].style.display = "block";
-        }
-
-        //Setting the game canvas container seperately since that uses a flex display
-        gameCanvasContainer.style.display = "flex";
-
-        //Changing the text of the button
-        forceButton.textContent = "Force Hide Demo";
-    } else {
-
-        //Hiding all elements of the mobile display
+    //Checking if the button has already been pressed (AKA if the text of the button is "Force Hide Demo"
+    if (forceButton.textContent === "Force Hide Demo") {
         for (let i = 0; i < mobileElements.length; i++) {
             mobileElements[i].style.display = "none";
         }
-
-        //Setting the game canvas container seperately (it is not part of the mobile class)
         gameCanvasContainer.style.display = "none";
-
-        //Changing the text of the button
         forceButton.textContent = "Force Show Demo";
+        return;
     }
+
+    //This code will only run if the text of the button is NOT Force Hide Demo, and if it does run it sets all elements of 
+    //the mobile class to display, as well as changing the text of the button
+    for (let i = 0; i < mobileElements.length; i++) {
+        mobileElements[i].style.display = "block";
+    }
+    gameCanvasContainer.style.display = "flex";
+    forceButton.textContent = "Force Hide Demo";
+    return;
 });
